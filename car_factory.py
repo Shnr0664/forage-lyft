@@ -8,9 +8,6 @@ from engine.sternman_engine import SternmanEngine
 from engine.willoughby_engine import WilloughbyEngine
 
 
-
-
-
 class CarFactory:
     def create_calliope(self, current_date: date, last_service_date: date, current_mileage: int,
                         last_service_mileage: int):
